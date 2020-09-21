@@ -1,0 +1,110 @@
+<!--<div ng-include='"templates/carousel.html"'></div>-->
+<!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('../images/mahadev-slide1.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../images/mahadev-slide2.jpg');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('../images/mahadev-slide3.jpg');"></div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="index#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="index#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+<!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    {{ pageData.homePage.welcomeDialogueHeader }}
+                </h1>
+            </div>
+            <div ng-repeat="dialogue in pageData.homePage.welcomeDialogues">
+                <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>{{dialogue.title}}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div ng-if = "dialogue.description == ''">
+                            <p>{{dialogue.dayList1}} <br> {{dialogue.dayList1Hours1}} <br> {{dialogue.dayList1Hours2}} </p>
+                            <p>{{dialogue.dayList2}} <br> {{dialogue.dayList2Hours1}} </p>
+                        </div>
+                        <div ng-if = "dialogue.description != ''">
+                            <p> {{dialogue.description}} </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{ pageData.homePage.testimonalHeader }}</h2>
+            </div>
+            <div ng-repeat="testimonal in pageData.homePage.testimonals">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="testimonal-user">
+                            <div class="testimonal-user-icon">
+                                <img ng-src="{{ testimonal.iconPath}}">
+                            </div>
+                            <div class="testimonal-user-name">
+                                {{ testimonal.name }}
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <p class="testimonal-user-desc">
+                                "{{ testimonal.description }}".
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{ pageData.homePage.aboutUsHeader}}</h2>
+            </div>
+            <div class="col-md-6">
+                <p>{{ pageData.homePage.aboutUs.description1 }}</p>
+                <p>{{ pageData.homePage.aboutUs.description2 }}</p>
+                <div class="learn-more">
+                    <a class="btn btn-lg btn-default btn-block" ng-href="{{ pageData.homePage.aboutUs.link }}">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" ng-src="{{ pageData.homePage.aboutUs.path }}" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+    </div>
+    <!-- /.container -->

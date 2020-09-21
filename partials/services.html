@@ -1,0 +1,48 @@
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">{{pageData.servicesPage.breadCrumb.heading}}
+                </h1>
+                <ol class="breadcrumb">
+                    <li  ng-repeat="item in pageData.servicesPage.breadCrumb.items">
+                        <a ng-href="{{ item.link }}"> {{ item.name }} </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Image Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" ng-src="{{ pageData.servicesPage.banner.imagePath}}" alt="">
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Service Panels -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">{{ pageData.servicesPage.breadCrumb.heading }}</h2>
+            </div>
+            <div ng-repeat="service in pageData.servicesPage.services">
+                <div class="col-md-4 col-sm-6">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-heading service">
+                            <div class="service-panel">
+                                <img ng-src="{{ service.imagePath }}" />
+                            </div>
+                        </div>
+                        <div class="panel-body service">
+                            <h4>{{ service.name }}</h4>
+                            <p>{{ service.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

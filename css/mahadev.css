@@ -1,0 +1,267 @@
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #F5F3EE;
+}
+
+/* nav-bar inverse start */
+
+.navbar-inverse {
+  background-color: #7d1935;
+  border-color: #5e0e24;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #5cd6fb;
+}
+.navbar-inverse .navbar-text {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #5cd6fb;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu {
+  background-color: #7d1935;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #5cd6fb;
+  background-color: #5e0e24;
+}
+.navbar-inverse .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #5e0e24;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #5cd6fb;
+  background-color: #5e0e24;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #5cd6fb;
+  background-color: #5e0e24;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #5cd6fb;
+  background-color: #5e0e24;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #5e0e24;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #5e0e24;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #5e0e24;
+}
+.navbar-inverse .navbar-link {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #5cd6fb;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #5cd6fb;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #5cd6fb;
+    background-color: #5e0e24;
+  }
+}
+
+/* nav-bar brand */
+.navbar-brand {
+    float: left;
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.navbar-nav > li > a {
+    line-height:40px;
+}
+.navbar-toggle{
+    margin-top: 12px;
+}
+
+/* nav-bar inverse end */
+
+/* panel-heading */
+.panel-default {
+    border-color: #5e0e24;
+    -webkit-box-shadow: 5px 5px 10px 1px rgba(94,14,36,0.69);
+    -moz-box-shadow: 5px 5px 10px 1px rgba(94,14,36,0.69);
+    box-shadow: 5px 5px 10px 1px rgba(94,14,36,0.69);
+}
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #7d1935;
+    border-color: #5e0e24;
+}
+.panel-body{
+    min-height: 160px;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    /* height: 70%;  This was the default one */
+    height: 250px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Footer Styles */
+
+footer {
+    position: absolute;
+    color: #fff;
+    background-color: #7d1935;
+    border-color: #5e0e24;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/* button */
+.btn-default {
+  color: #fff;
+  background-color: #7d1935;
+  border-color: #5e0e24;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #4A96AD;
+  background-color: #5e0e24;
+  border-color: #5e0e24;
+}
+.btn-default:hover {
+  color: #4A96AD;
+  background-color: #5e0e24;
+  border-color: #5e0e24;
+}
+
+/* Testimonal User */
+
+.testimonal-user{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.testimonal-user-icon{
+    margin: auto;
+}
+.testimonal-user-icon img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.testimonal-user-desc {
+    font-style: italic;
+}
+.learn-more{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.page-header{
+  margin-top: 25px;
+  font-size: 32px;
+}
+.panel-heading.service {
+  padding: 10px;
+}
+.panel-body.service {
+  min-height: 350px;
+}
+.service-panel img{
+    border-radius: 125px;
+}
+.about-us-heading{
+  margin-top: 0;
+}
+/* Responsive Styles */
+
+@media(min-width: 480px) {
+  header.carousel {
+    margin-top: 10px;
+    /* height: 70%;  This was the default one */
+    height: 300px;
+  }
+  header.carousel .fill {
+    background-position: 10%;
+  }
+  .page-header{
+    margin-top: 30px;
+    font-size: 32px;
+  }
+}
+@media(min-width: 720px) {
+  .navbar-brand{
+    height: 70px;
+    padding: 20px 15px;
+    font-size: 24px;
+  }
+  header.carousel {
+    margin-top: 20px;
+    /* height: 70%;  This was the default one */
+    height: 400px;
+  }
+  header.carousel .fill {
+    background-position: center;
+  }
+}

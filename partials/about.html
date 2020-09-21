@@ -1,0 +1,31 @@
+<!-- Page Content -->
+    <div class="container">
+
+         <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">{{pageData.aboutUsPage.breadCrumb.heading}}
+                </h1>
+                <ol class="breadcrumb">
+                    <li  ng-repeat="item in pageData.aboutUsPage.breadCrumb.items">
+                        <a ng-href="{{ item.link }}"> {{ item.name }} </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Intro Content -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" ng-src="{{pageData.aboutUsPage.imagePath}}" alt="">
+            </div>
+            <div class="col-md-6">
+                <h2 class="about-us-heading">{{ pageData.aboutUsPage.contentHeading}}</h2>
+                <div ng-repeat="para in pageData.aboutUsPage.description">
+                    <p> {{ para.paragraph }} </p>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>

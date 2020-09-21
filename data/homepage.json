@@ -1,0 +1,213 @@
+{
+  "title": "Mahadev Dental Clinic",
+  "welcomeDialogueHeader" : "Welcome to Mahadev Dental Clinic",
+  "testimonalHeader" : "Testimoanls",
+  "aboutUsHeader" : "About US",
+  "menus": [
+    {
+      "name": "About",
+      "link" : "#/about"
+    },
+    {
+      "name": "Services",
+      "link" : "#/services",
+      "subMenus": []
+    },
+    {
+      "name": "Contact",
+      "link" : "#/contact"
+    }
+  ],
+  "homePage": {
+  "carousel": {
+    "images": [
+      {
+        "path": "../images/mahadev-slide1.jpg"
+      },
+      {
+        "path": "../images/mahadev-slide2.jpg"
+      },
+      {
+        "path": "../images/mahadev-slide3.jpg"
+      }
+    ]
+  },
+  "welcomeDialogues": [
+    {
+      "title": "Open Hours",
+      "description": "",
+      "dayList1": "Monday - Friday",
+      "dayList2": "Saturday & Sunday",
+      "dayList1Hours1": "9:00 AM - 1:00 PM",
+      "dayList1Hours2": "3:00 PM - 9:00 PM",
+      "dayList2Hours1": "9:00 AM - 1:00 PM"
+    },
+    {"title": "Treatments",
+      "description": "We provide treatments for Root Canal, Teeth Whitening, Gum Problems, Cosmetic Fillings, Smile Designing, Fixed Dentures, Removable Partial Dentures, Complete Dentures, Extractions, Implants & etc.."},
+    {"title": "Free Dental Checkup",
+      "description": "We provide free dental checkup."}
+  ],
+  "testimonals" : [
+    {
+      "iconPath" : "images/testimonals/testimonal-user-1.jpg",
+      "name" : "Raju Dandigam",
+      "description" : "It was nice experience in Mahadev Dental Clinic. If you fear going to the dentist, you are not alone. Between 9% and 15% of population state they avoid going to the dentist because of anxiety or fear. The first thing you should do is talk with your dentist. In fact, if your dentist doesn’t take your fear seriously, find another dentist. The key to coping with dental anxiety is to discuss your fears with your dentist"
+    },
+    {
+      "iconPath" : "images/testimonals/testimonal-user-2.jpg",
+      "name" : "Prashanth Kandagatla",
+      "description" : "It was nice experience in Mahadev Dental Clinic. If you fear going to the dentist, you are not alone. Between 9% and 15% of population state they avoid going to the dentist because of anxiety or fear. The first thing you should do is talk with your dentist. In fact, if your dentist doesn’t take your fear seriously, find another dentist. The key to coping with dental anxiety is to discuss your fears with your dentist"
+    },
+    {
+      "iconPath" : "images/testimonals/testimonal-user-3.jpg",
+      "name" : "Anish Gajula",
+      "description" : "It was nice experience in Mahadev Dental Clinic. If you fear going to the dentist, you are not alone. Between 9% and 15% of population state they avoid going to the dentist because of anxiety or fear. The first thing you should do is talk with your dentist. In fact, if your dentist doesn’t take your fear seriously, find another dentist. The key to coping with dental anxiety is to discuss your fears with your dentist"
+    }
+  ],
+  "aboutUs" : {
+    "path": "images/about-us-main-1.jpg",
+    "description1" : "MAHADEV DENTAL HOSPITALS established in 1992 with the commitment of dental surgeons who have long experience in private practice in Hyderabad. We know that its smile, which can make one’s personality and this valuable feature, is always nursed by us in the most sophisticated manner.Away from traditional dental clinic, we decided to conform it into trendy lifestyle, concentrating on the esthetic dental treatment, providing first class services by the specialist in any kind of treatment.",
+    "description2" : "MAHADEV DENTAL HOSPITALS is a renowned dental center providing multidisciplinary services in dental treatments.Wish to make a unique private dental clinic with warm atmosphere and hospitality combined with modern equipment and technology to serve the people. We endeavor to offer high quality services for our patients with our expertise. Our center is equipped with a wide range of high quality and cutting edge technology.",
+	"link": "#/about"
+  }
+},
+  "servicesPage": {
+  "breadCrumb": {
+    "heading": "Services",
+    "items": [
+      {
+        "name": "Home",
+        "link": "#"
+      },
+      {
+        "name": "Services",
+		"link":"#/services"
+      }
+      ]
+  },
+  "banner": {
+    "imagePath": "images/services-banner.jpg"
+  },
+  "services": [
+    {
+      "name": "Root Canal",
+      "imagePath": "images/services/root-canal.jpg",
+      "description": "During root canal or endodontic treatment, the inflamed or infected pulp is removed and the inside of the tooth is carefully cleaned and disinfected, then filled and sealed with a rubber-like material called gutta-percha. Afterwards, the tooth is restored with a crown or filling for protection. Inside the tooth, under the white enamel and a hard layer called the dentin, is a soft tissue called the pulp. The pulp contains blood vessels, nerves and connective tissue, and helps to grow the root of your tooth during development."
+    },
+    {
+      "name": "Teeth Whitening",
+      "imagePath": "images/services/teeth-whitening.jpg",
+      "description": "This procedure is called chairside bleaching and usually requires only one office visit. The dentist will apply either a protective gel to your gums or a rubber shield to protect your gums. Bleach is then applied to the teeth. A special light or laser might be used to enhance the action of the whitening agent. A special light or laser might be used to enhance the action of the whitening agent.A special light or laser might be used to enhance the action of the whitening agent. A special light or laser might be used to enhance the action of the whitening agent."
+    },
+    {
+      "name": "Gum Problems",
+      "imagePath": "images/services/gum-problems.jpg",
+      "description": "Treatment includes professionally cleaning the pockets around teeth to prevent damage to surrounding bone. Advanced cases may require surgery. Treatment includes professionally cleaning the pockets around teeth to prevent damage to surrounding bone. Advanced cases may require surgery. Treatment includes professionally cleaning the pockets around teeth to prevent damage to surrounding bone. Advanced cases may require surgery. Treatment includes professionally cleaning the pockets around teeth to prevent damage to surrounding bone. Advanced cases may require surgery."
+    },
+    {
+      "name": "Cosmetic Fillings",
+      "imagePath": "images/services/cosmetic-filling.jpg",
+      "description": "A filling is something that most people will have undergone at some point in their lives. They are a form of treatment for tooth decay or to restore a damaged tooth. The most popular type of filling is the silver amalgam filling.There is the standard filling and then there are cosmetic fillings which are performed for aesthetic reasons. These are known as onlays and inlays.There is the standard filling and then there are cosmetic fillings which are performed for aesthetic reasons"
+    },
+    {
+      "name": "Smile Designing",
+      "imagePath": "images/services/smile-designing.jpg",
+      "description": "The dentist as artist can help a patient visualize the potential results of proposed treatment recommendations using photographic images, tracing analysis, and even computer simulation. While these pictures may differ slightly from the eventual outcome, the dentist can utilize drawings or digitized images to describe particular procedures and to compare how they could affect the final look.While these pictures may differ slightly from the eventual outcome, the dentist can utilize drawings or digitized images to describe particular procedures and to compare how they could affect the final look."
+    },
+    {
+      "name": "Fixed Dentures",
+      "imagePath": "images/services/fixed-dentures.jpg",
+      "description": "Most patients with full dentures or those patients with failing crowns and bridgework, who have loose teeth, severe bone loss or decayed teeth can benefit dramatically from this revolutionary dental treatment concept in just one day! Most patients with full dentures or those patients with failing crowns and bridgework, who have loose teeth, severe bone loss or decayed teeth can benefit dramatically from this revolutionary dental treatment concept in just one day!"
+    },
+    {
+      "name": "Removable Partial Dentures",
+      "imagePath": "images/services/removable-partial-dentures.jpg",
+      "description": "Removable partial dentures usually consist of replacement teeth attached to pink or gum-colored plastic bases. Depending on your needs, your dentist will design a partial denture for you. A partial denture may have a metal framework and clasps that connect to your teeth, or they can have other connectors that are more natural looking. In some cases, a removable partial denture is made to attach to your natural teeth with devices called precision attachments. Precision attachments are generally more esthetic than clasps."
+    },
+    {
+      "name": "Complete Dentures",
+      "imagePath": "images/services/complete-dentures.jpg",
+      "description": "A denture is a removable replacement for missing teeth and adjacent tissues. It is made of acrylic resin, sometimes in combination with various metals.Complete dentures replace all the teeth, while a partial denture fills in the spaces created by missing teeth and prevents other teeth from changing position.Candidates for complete dentures have lost most or all of their teeth. A partial denture is suitable for those who have some natural teeth remaining. A denture improves chewing ability and speech, and provides support for facial muscles. It will greatly enhance the facial appearance and smile."
+    },
+    {
+      "name": "Extractions",
+      "imagePath": "images/services/extractions.jpg",
+      "description": "Gum disease can loosen or severely damage a tooth. A tooth that is severely damaged may need to be removed. Your dentist or a surgeon who specializes in surgeries of the mouth (oral and maxillofacial surgeon) can remove a tooth.Before removing your tooth, your dentist will give you a local anesthetic to numb the area where the tooth will be removed. <br> A stronger, general anesthetic may be used, especially if several or all of your teeth need to be removed. General anesthetic prevents pain in the whole body and will make you sleep through the procedure."
+    },
+    {
+      "name": "Implants",
+      "imagePath": "images/services/implants.jpg",
+      "description": "IMPLANTS. A dental implant is a titanium post (like a tooth root) that is surgically positioned into the jawbone beneath the gum line that allows your dentist to mount replacement teeth or a bridge into that area. An implant doesn't come loose like a denture can.IMPLANTS. A dental implant is a titanium post (like a tooth root) that is surgically positioned into the jawbone beneath the gum line that allows your dentist to mount replacement teeth or a bridge into that area. An implant doesn't come loose like a denture can."
+    },
+    {
+      "name": "Teeth Alignment",
+      "imagePath": "images/services/teeth-alignment.jpg",
+      "description": "Teeth alignment can be performed at any age, and various techniques may be used, including clear brackets, in order to achieve dental aesthetics even during the treatment process.Teeth alignment can be performed at any age, and various techniques may be used, including clear brackets, in order to achieve dental aesthetics even during the treatment process.Teeth alignment can be performed at any age, and various techniques may be used, including clear brackets, in order to achieve dental aesthetics even during the treatment process."
+    }
+    ]
+},
+  "aboutUsPage": {
+    "breadCrumb": {
+      "heading": "About US",
+      "items": [
+        {
+         "name": "Home",
+         "link": "#"
+        },
+        {
+         "name": "About Us",
+         "link": "#/about"
+        }
+      ]
+    },
+    "contentHeading": "About Vamshi",
+    "imagePath": "images/about-us.jpg",
+    "description": [
+      {
+        "paragraph": "We’re glad you hand your dental health concerns to our skilled hands. We’ll make sure to deliver the best possible healthcare to all our patients! Of course, we always complement our main services with a customer service oriented approach."
+      },
+      {
+        "paragraph": "We sincerely believe that visiting a dentist shouldn’t be a frightening or stressful experience! We provide an equally comfortable experience of relaxation for all our young and adult customers! Also we implement a lot of pain management and anesthesia options.Everything we do is aimed at making you feel comfortable, while we take care of your oral healthcare! "
+      },
+      {
+        "paragraph": "It includes both local anesthesia for mouth-numbing as well as a sedative anesthesia. Altogether, this helps relief any pain which might occur in the process of treatment. All in all, we’ve got it all under control at our BeDentist dental health clinic."
+      },
+      {
+        "paragraph": "We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all the additional info we have posted here.Once our customer, you will be leaving our dental clinic with a bright, wide smile!"
+      },
+      {
+        "paragraph": "We invite you to explore the information about our dental office on our website! Feel free to read our terms and conditions and all the additional info we have posted here.Once our customer, you will be leaving our dental clinic with a bright, wide smile!"
+      }
+      ],
+      "facebookUrl":"",
+      "linkedinUrl":"",
+      "squareUrl":"",
+      "googlePlusUrl":""
+  },
+  "contactUsPage":{
+    "breadCrumb": {
+      "heading": "Contact Us",
+      "items": [
+        {
+         "name": "Home",
+         "link": "#"
+        },
+        {
+         "name": "Contact Us",
+         "link": "#/contact"
+        }
+      ]
+    },
+    "contentHeading": "Contact Details",
+    "address": "8-3-231/A/175, A Block, Near Bus Stop, Lane Opposite: Swastik Medical Stores, Srikrishna Nagar, Yousufguda, Hyderabad - 500045",
+    "mobile1": "+(91)-8897156542",
+	"mobile2": "+(91)-9063350860",
+    "landline": "",
+    "email": "vamshiarelly@gmail.com",
+    "days1": "Monday - Friday",
+    "days2": "Sataurday & Sunday",
+    "hours1": "9:00 AM to 5:00 PM",
+    "hours2": "9:00 AM - 1:00 PM"
+  },
+  "footer" : "Copyright © Mahadev Dental Hospital 2017"
+}
